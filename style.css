@@ -93,3 +93,27 @@
 .boton:hover{
     cursor:pointer;
 }
+
+.contenedor3{
+    display:flex;
+    height: 800px;
+    justify-content: center;
+    padding:40px; 
+}
+
+.tit{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 50px;
+    color:#1f2937;
+}
+
+.cont{
+    width:200px;
+    height:200px;
+    border: 2px solid #3882f6;
+    margin:15px;
+    border-radius: 20%;
+    
+}

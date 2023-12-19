@@ -22,7 +22,7 @@
 
 .links {
     margin:50px;
-    border: 1px red solid;
+    
     display:flex;
     gap:10px;
     width:500px;
@@ -96,7 +96,7 @@
 
 .contenedor3{
     display:flex;
-    height: 800px;
+    height: 500px;
     justify-content: center;
     padding:40px; 
 }
@@ -115,5 +115,36 @@
     border: 2px solid #3882f6;
     margin:15px;
     border-radius: 20%;
+    
+}
+
+.cont>img{
+    width:200px;
+    height:200px;
+    border-radius:20%;
+}
+
+.cc{
+    width:250px;
+    text-align:center;
+    margin:10px;  
+}
+
+.contenedor4{
+    background-color: #e5e7eb;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor4>p{
+    font-size: 38px;
+    color:#1f2937;
+}
+
+.quote{
+    align-self: flex-end;
+    margin-bottom: 60px;
     
 }
